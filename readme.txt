@@ -1,6 +1,6 @@
-=== ios images fixer ===
+=== iOS images fixer ===
 Contributors: Bishoy
-Tags: ios, iphone, thumbnails, media
+Tags: ios, iphone, thumbnails, media, images, upload
 Donate link: http://bishoy.me/donate
 Requires at least: 2.0.0
 Tested up to: 3.9.1
@@ -8,16 +8,16 @@ Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/license-list.html#GPLCompatibleLicenses
 
-Fix iOD-taken images' orientation using ImageMagic/PHP GD.
+Automatically fix iOS-taken images' orientation using ImageMagic/PHP GD upon upload.
 
 == Description ==
-This plugin fixes iOS-taken images' orientation upon uploading using ImageMagic Library if available or PHP GD as a fallback. No settings editing required, just activate the plugin and try uploading an image from your idevice!
+By default, thumbnails of photos taken by an iOS device (iPhone or iPad) are flipped 90 degrees to the left, it's a long image EXIF information story. This plugin takes care of this and fixes the uploaded images orientation's (if needed) using ImageMagic Library if available or PHP GD as a fallback. No settings editing required, just activate the plugin and try uploading an image from your idevice!
 
 == Frequently Asked Questions ==
-Is there any special requirement?
+= Is there any special requirement? =
 Yes, PHP GD library or ImageMagic.
 
-Is there any code-level modifications required?
+= Is there any code-level modifications required? =
 No, just install the plugin and continue blogging happily.
 
 == Installation ==
