@@ -20,9 +20,6 @@ No settings editing required, just activate the plugin and try uploading an imag
 = Is there any special requirement? =
 Yes, PHP GD library or ImageMagic.
 
-== Documentation ==
-No documentation needed.
-
 = Is there any code-level modifications required? =
 No, just install the plugin and continue blogging happily.
 
